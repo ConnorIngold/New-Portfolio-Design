@@ -1,14 +1,22 @@
 body{
   overflow-x: hidden;
+  font-family: 'Source Sans Pro', sans-serif ;
 }
 
-.banner h1{
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
-  font-size: 64px;
-}
 
+h1, h2, h3, h4, h5, h6, p, a, span, li{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 p{
-  margin: 0px;
+  margin: 0px ;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  margin: 0px !important;
+  text-transform: uppercase;
 }
 // things that apply to everthing

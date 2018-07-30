@@ -3,15 +3,44 @@ header{
   background-color: #f5f7fa;
 }
 
-.btn-treehouse {
+
+.banner{
+  background: url('https://res.cloudinary.com/desmpz4mv/image/upload/v1532945073/image.png') center center no-repeat;
   color: white;
-  padding: 10px 15px;
-  border-radius: 4px;
+  text-align: center;
+  height: -webkit-fill-available;;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.banner h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+}
+
+.banner-content p{
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 50px;
+  padding: 0 12%;
+}
+
+
+.btn-design {
+  color: white;
+  padding: 12px 45px;
+  border-radius: 2px;
   font-weight: bold;
   background: #00bc9c;
-  transition: background 0.3s ease;
+  transition:  0.45s ease;
 }
-.btn-treehouse:hover {
+.btn-design:hover {
   opacity: 1;
   background: #fff;
   text-decoration: none;
