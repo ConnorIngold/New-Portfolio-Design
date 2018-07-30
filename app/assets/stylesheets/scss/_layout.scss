@@ -6,9 +6,18 @@ nav p{
   display: inline-flex;
 }
 
-.wrapper{
-  display: flex;
-  justify-content: space-between;
+@media only screen and (max-width: 800px) {
+    .col-md-12 {
+        padding: 0px !important;
+    }
+
+    .banner h1{
+      font-size: 50px !important;
+    }
+
+    .three-things, .quality, .creativity{
+      text-align: center;
+    }
 }
 
 // navbar/footer thing like that
