@@ -1,3 +1,19 @@
-body{
-  background-color: lightgrey;
+// everthing else
+header{
+  background-color: #f5f7fa;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #00bc9c;
+  transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #fff;
+  text-decoration: none;
+  color: #00bc9c;
 }
