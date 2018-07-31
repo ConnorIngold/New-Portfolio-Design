@@ -25,6 +25,37 @@ h3{
   font-size: 36px !important;
 }
 
+
+.btn-design {
+  color: white;
+  padding: 12px 45px;
+  border-radius: 2px;
+  font-weight: bold;
+  background: #00bc9c;
+  transition:  0.45s ease;
+}
+.btn-design:hover {
+  opacity: 1;
+  background: #fff;
+  text-decoration: none;
+  color: #00bc9c;
+}
+
+.btn-design2 {
+  color: white;
+  padding: 12px 45px;
+  border-radius: 2px;
+  font-weight: bold;
+  background: #00bc9c;
+  transition:  0.45s ease;
+}
+.btn-design2:hover {
+  box-shadow: 2px 3px 15px 4px #eaeaea;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
 .center{
   text-align: center !important;
 }

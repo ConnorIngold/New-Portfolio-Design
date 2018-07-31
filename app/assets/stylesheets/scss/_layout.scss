@@ -6,6 +6,24 @@ nav p{
   display: inline-flex;
 }
 
+footer{
+  background-color: #2f4052 !important;
+  color: #fff;
+  width: 100%;
+}
+
+.sub-footer{
+  background-color: #283645;
+  display: inline-flex;
+  width: 100%;
+}
+
+.sub-footer-content{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 800px) {
     .col-md-12 {
         padding: 0px !important;
@@ -17,6 +35,14 @@ nav p{
 
     .three-things, .quality, .creativity{
       text-align: center;
+    }
+
+    .flex{
+      text-align: center !important;
+    }
+
+    .sub-footer{
+      display: none !important;
     }
 }
 

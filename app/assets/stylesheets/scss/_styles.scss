@@ -36,21 +36,6 @@ header{
   padding: 0 12%;
 }
 
-
-.btn-design {
-  color: white;
-  padding: 12px 45px;
-  border-radius: 2px;
-  font-weight: bold;
-  background: #00bc9c;
-  transition:  0.45s ease;
-}
-.btn-design:hover {
-  opacity: 1;
-  background: #fff;
-  text-decoration: none;
-  color: #00bc9c;
-}
 // banner ends here
 
 // first section starts here
@@ -101,10 +86,12 @@ section{
   padding-bottom: 20px;
   box-shadow: 1px 3px 11px 2px #eaeaea;
   transition: 0.6s ease;
+  margin: 5% 0;
 }
 
 .card:hover{
   box-shadow: 3px 6px 15px 4px #eaeaea;
+  cursor: pointer;
 }
 
 .card img{
@@ -114,7 +101,76 @@ section{
   margin-bottom: 25px;
 }
 
-.card h3{
-
-}
 // second section ends here
+
+// work with me section starts here
+
+.work-with-me{
+  padding: 10px;
+  color: #546982 !important;
+}
+
+.work-with-me h5{
+  margin: 2% 0;
+  font-size: 36px;
+}
+
+.work-with-me p{
+  margin: 2% 0 3%;
+  font-size: 16px;
+}
+// work with me ends here
+
+
+//footer starts here
+.flex p{
+  color: #e3e3e3;
+}
+
+.flex a{
+  color: #fff;
+}
+
+.flex a:hover{
+  color: #e3e3e3;
+}
+
+.flex i{
+  font-size: 30px;
+  padding: 0 10px 25px 0px;
+}
+
+.first-box{
+  padding: 15px 0;
+}
+
+.second-box{
+ padding-bottom: 15px;
+}
+
+// footer ends here
+
+// sub footer starts here
+.copyright p{
+   word-spacing: 2px;
+}
+
+.links{
+  display: inline-flex;
+}
+
+.links p{
+  padding-right: 15px;
+}
+
+.links a{
+  color: #fff;
+  text-decoration: none;
+  transition: ease 0.4s;
+}
+
+.links a:hover{
+  color: #e2e2e2;
+  text-decoration: none;
+}
+// sub footer ends here
