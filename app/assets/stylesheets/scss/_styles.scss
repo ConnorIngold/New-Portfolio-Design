@@ -1,6 +1,24 @@
 // everthing else
 header{
   background-color: #f5f7fa;
+  width: 100%;
+}
+
+header .details{
+  display: inline-flex;
+  width: 35%;
+}
+
+header p{
+  margin: 0 20px 0 0;
+  color: #506a85;
+}
+
+.details i{
+  font-size: 15px;
+  color: #506a85;
+  margin-right: 10px;
+  margin-top: 0.5%;
 }
 
 .homepage{

@@ -2,33 +2,37 @@
 
 
 <header>
-  <nav>
-    <div class="container">
-      <div class="wrapper">
-        <div class="details">
-          <p>connoringold@gmail.com</p>
-          <p>0712 3456 789</p>
-        </div>
-          <div class="header-socail-media">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-facebook-f"></i>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="details">
+        <i class="far fa-envelope"></i>
+        <p>connoringold@gmail.com</p>
+        <i class="fas fa-mobile-alt"></i>
+        <p>0712 3456 789</p>
       </div>
+        <div class="header-socail-media">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-facebook-f"></i>
+        </div>
     </div>
-  </nav>
+  </div>
 </header>
 
 <nav>
   <div class="container">
     <div class="row">
-      <%= link_to image_tag("logo.png", :alt => "logo"), root_path, class: "top-logo" %>
-      <a href=""><p>home</p></a>
-      <a href=""><p>portfolio</p></a>
-      <a href=""><p>blog</p></a>
-      <a href=""><p>pages</p></a>
-      <a href=""><p>features</p></a>
-      <a href=""><p>contact</p></a>
+      <div class="logo">
+        <%= link_to image_tag("logo.png", :alt => "logo"), root_path, class: "top-logo" %>
+      </div>
+      <div class="nav-links">
+        <a href=""><p>home</p></a>
+        <a href=""><p>portfolio</p></a>
+        <a href=""><p>blog</p></a>
+        <a href=""><p>pages</p></a>
+        <a href=""><p>features</p></a>
+        <a href=""><p>contact</p></a>
+      </div>
     </div>
   </div>
 </nav>

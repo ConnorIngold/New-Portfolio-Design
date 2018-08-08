@@ -1,9 +1,33 @@
 nav{
   width: 100%;
+  font-weight: bold;
 }
 
 nav p{
   display: inline-flex;
+  color: #506a85;
+}
+
+nav a{
+  margin-right: 5% !important;
+  margin-top: 0.5%;
+}
+
+nav .row{
+  display: inline-flex;
+  width: 100%;
+}
+
+nav .nav-links{
+  text-transform: uppercase;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+nav a:hover{
+  text-decoration: none;
 }
 
 footer{
