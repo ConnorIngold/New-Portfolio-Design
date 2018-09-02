@@ -3,14 +3,10 @@ nav{
   font-weight: bold;
 }
 
-nav p{
-  display: inline-flex;
-  color: #506a85;
-}
-
 nav a{
   margin-right: 5% !important;
   margin-top: 0.5%;
+  color: #506a85;
 }
 
 nav .row{
@@ -18,12 +14,21 @@ nav .row{
   width: 100%;
 }
 
-nav .nav-links{
+nav .nav-link{
   text-transform: uppercase;
   display: inline-flex;
   width: 100%;
-  justify-content: center;
-  justify-content: space-evenly;
+  color: #506a85 !important;
+}
+
+.navbar-brand{
+  margin-left: 15%;
+}
+
+
+#navbarNav{
+  justify-content: flex-end;
+  margin-right: 15%;
 }
 
 nav a:hover{
